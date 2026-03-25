@@ -1,41 +1,47 @@
-# Interactive Stock Price Explorer (Streamlit App)
+# 📊 Stock Analyzer Dashboard (Streamlit)
 
-## 🌟 Project Overview
+A simple and clean stock analysis dashboard built using **Python, Streamlit, Pandas, and Matplotlib**.  
+This project allows users to analyze historical stock data, visualize price trends, and understand stock behaviour using technical indicators like **Daily Returns** and **30-Day Moving Average (SMA)**.
 
-This is an interactive web application built in Python using **Streamlit** to provide a simple, real-time tool for historical stock price analysis. The application allows users to query any stock ticker, define a date range, and instantly view closing price trends and trading volumes.
+The UI is designed using a **minimal black theme** to keep the dashboard simple, readable, and professional.
 
-The primary objective was to gain practical proficiency in integrating the **yfinance** library for financial data fetching and using **Pandas** and **Matplotlib** for data processing and visualization within a deployable **Streamlit** interface.
+---
 
-## 💡 Key Features
+## 🚀 Features
 
-* **Custom Data Fetching:** Utilizes the `yfinance` library to fetch daily historical data for any valid ticker symbol (e.g., AAPL, GOOGL).
-* **Technical Analysis:** Calculates and displays the **30-Day Simple Moving Average (SMA_30)**, overlaid on the closing price chart for trend analysis.
-* **Visualization:** Displays two main charts:
-    1.  Closing Price vs. Time (with SMA_30)
-    2.  Trading Volume (Bar Chart)
-* **Interactive Inputs:** Uses Streamlit widgets for ticker symbol, start date, and end date inputs.
+- Enter any stock ticker (example: AAPL, MSFT, TSLA, INFY, etc.)
+- Select custom start date and end date
+- View complete stock dataset in tabular format
+- Visualize:
+  - Closing Price Trend
+  - 30-Day Moving Average (SMA)
+  - Trading Volume
+  - Daily Return Distribution
+  - Trend Summary (Uptrend vs Downtrend)
 
-## ⚙️ Technologies Used
+---
 
-* **Python:** Core programming language.
-* **Streamlit:** For building the interactive web interface.
-* **Pandas:** For data loading, manipulation, calculating the SMA (using `.rolling().mean()`), and data frame preparation.
-* **Matplotlib / pyplot:** For generating the trading volume bar chart.
-* **yfinance:** For reliable historical stock data retrieval.
+## 📷 Dashboard Overview
 
-## 🚀 Getting Started
+The dashboard includes:
 
-**Prerequisites:**
+- Line chart for **Closing Price vs 30-Day Moving Average**
+- Bar chart for **Trading Volume**
+- Histogram for **Daily Return Distribution**
+- Pie chart for **Trend Analysis**
+- Interactive table for full dataset
 
-* Python 3.x
+---
 
-**Installation and Setup:**
+## 🛠️ Technologies Used
 
-1.  **Install Dependencies:**
-    ```bash
-    pip install streamlit pandas matplotlib yfinance seaborn
-    ```
-2.  **Run the Application:**
-    ```bash
-    streamlit run app.py
-    ```
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Matplotlib
+- yFinance API
+
+---
+
+## 📂 Project Structure
