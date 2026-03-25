@@ -42,6 +42,34 @@ The dashboard includes:
 - Matplotlib
 - yFinance API
 
+
 ---
 
-## 📂 Project Structure
+
+## 📊 What This Project Demonstrates
+
+This project demonstrates:
+
+- Data cleaning using Pandas
+- Feature engineering (Day, Month, Year, Daily Returns)
+- Financial data analysis
+- Data visualization using Matplotlib
+- Building interactive dashboards using Streamlit
+- Writing clean and readable Python code
+
+---
+
+## 🎯 Future Improvements
+
+- Add RSI (Relative Strength Index)
+- Add MACD indicator
+- Add candlestick charts
+- Add stock comparison feature
+- Deploy using Streamlit Cloud
+
+---
+
+## 👩‍💻 Author
+
+Built as part of a **Data Science & Machine Learning learning journey**.
+
